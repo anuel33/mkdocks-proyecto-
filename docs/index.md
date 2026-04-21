@@ -1,41 +1,44 @@
-===== index.md =====
 # JavaScript Docs 🚀
-
-Bienvenido a esta documentación de JavaScript.
 
 ---
 
 ## 📌 ¿Qué es JavaScript?
 
-JavaScript es un lenguaje de programación que se ejecuta principalmente en el navegador y permite crear páginas web dinámicas.
+JavaScript es un lenguaje de programación que se ejecuta principalmente en el navegador.
 
-Es uno de los lenguajes más importantes del desarrollo web moderno.
-
----
-
-## 🌍 ¿Dónde se usa JavaScript?
-
-- Navegadores web (Chrome, Firefox)
-- Aplicaciones web completas
-- Servidores con Node.js
-- Apps móviles
-- Juegos y herramientas interactivas
+Permite crear páginas web dinámicas, interactivas y modernas.
 
 ---
 
-## ⚙️ Cómo funciona
+## 🌍 ¿Dónde se usa?
 
-JavaScript es interpretado y se ejecuta línea por línea.
+- Navegadores web
+- Servidores (Node.js)
+- Aplicaciones móviles
+- Videojuegos
+- Aplicaciones de escritorio
 
-Características:
+---
 
+## ⚙️ Características
+
+- Lenguaje interpretado
 - Dinámico
-- Flexible
 - Basado en eventos
+- Muy flexible
 
 ---
 
 ## 🔥 Ejemplo
 
-```js
 console.log("Hola mundo");
+
+---
+
+## 🧠 Lo que aprenderás
+
+- Variables
+- Funciones
+- Tipos de datos
+- Arrays
+- Operadores
