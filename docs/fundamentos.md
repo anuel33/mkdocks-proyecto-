@@ -1,24 +1,59 @@
-# Fundamentos de JavaScript
+# Funciones en JavaScript
 
 ---
 
-## 📌 ¿Qué es programar?
+## 📌 ¿Qué es una función?
 
-Programar es darle instrucciones a la computadora.
-
----
-
-## 🧠 Conceptos básicos
-
-- Variables → guardar datos
-- Funciones → ejecutar acciones
-- Condiciones → decisiones
-- Bucles → repetir acciones
+Bloque de código reutilizable.
 
 ---
 
-## 🔥 Ejemplo simple
+## 🟢 Básica
 
-if (true) {
+function saludar() {
   console.log("Hola");
+}
+
+---
+
+## 🟡 Parámetros
+
+function sumar(a, b) {
+  return a + b;
+}
+
+---
+
+## 🔵 Arrow function
+
+const restar = (a, b) => a - b;
+
+---
+
+## 🧠 Retorno
+
+function multiplicar(a, b) {
+  return a * b;
+}
+
+---
+
+## 🔥 Callbacks
+
+function ejecutar(fn) {
+  fn();
+}
+
+ejecutar(() => console.log("Hola"));
+
+---
+
+## 🧠 Closures
+
+function contador() {
+  let c = 0;
+  return function () {
+    c++;
+    return c;
+  };
 }
