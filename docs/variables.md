@@ -4,7 +4,7 @@
 
 ## 📌 ¿Qué es una variable?
 
-Una variable es un espacio en memoria donde guardamos información que puede usarse más adelante en el programa.
+Espacio donde guardamos datos.
 
 ---
 
@@ -13,89 +13,51 @@ Una variable es un espacio en memoria donde guardamos información que puede usa
 let nombre = "Juan";
 nombre = "Pedro";
 
-✔ Se puede reasignar  
-✔ Tiene scope de bloque
-
 ---
 
 ## 🔵 const
 
 const PI = 3.14;
-const pais = "España";
-
-❌ No se puede reasignar
 
 ---
 
-## 🔴 var (antiguo)
+## 🔴 var (no recomendado)
 
 var edad = 20;
 
-⚠️ Problemas:
-- No respeta bien el scope
-- Se puede redeclarar
-- No recomendado
+---
+
+## 📌 Tipos de datos
+
+let texto = "Hola";
+let numero = 10;
+let booleano = true;
+let nulo = null;
 
 ---
 
-## 📌 Tipos de datos en variables
+## 🧠 Scope
 
-let texto = "Hola";        // String
-let numero = 42;           // Number
-let decimal = 3.14;        // Number
-let booleano = true;       // Boolean
-let indefinido;            // Undefined
-let nulo = null;           // Null
-
----
-
-## 🧠 Scope (alcance de variables)
-
-let global = "fuera";
+let x = 10;
 
 if (true) {
-  let local = "dentro";
-  console.log(global);
-  console.log(local);
+  let x = 20;
+  console.log(x);
 }
 
-console.log(global);
-// console.log(local); // ERROR
+console.log(x);
 
 ---
 
 ## ⚡ Hoisting
 
-console.log(a); // undefined
-var a = 10;
-
-// console.log(b); // ERROR
-let b = 20;
+console.log(a);
+var a = 5;
 
 ---
 
 ## 🔥 Buenas prácticas
 
-- Usa const por defecto
+- Usa const
 - Usa let si cambia
 - Evita var
-
----
-
-## 🧪 Ejemplo completo
-
-const pais = "España";
-let ciudad = "Valencia";
-
-ciudad = "Madrid";
-
-console.log(pais);
-console.log(ciudad);
-
----
-
-## 🧠 Resumen
-
-const → no cambia  
-let → cambia  
-var → evitar
