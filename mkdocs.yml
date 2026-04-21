@@ -1,0 +1,12 @@
+site_name: JavaScript Docs 🚀
+
+theme:
+  name: material
+
+nav:
+  - Inicio: index.md
+  - JavaScript:
+      - Variables: variables.md
+      - Funciones: funciones.md
+      - Tipos: tipos.md
+      - Arrays: arrays.md
